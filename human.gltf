@@ -102,7 +102,7 @@
   ],
   "buffers": [{
     "byteLength": 277824,
-    "uri": "http://127.0.0.1:8000/img/products/Harrison_Gaines/models/human/human.bin"
+    "uri": "https://rawgit.com/priyakrishnadev/demomodelfiles/master/human.bin"
   }],
   "materials": [{
     "name": "HumanBody:blinn1SG",
