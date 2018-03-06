@@ -102,7 +102,7 @@
   ],
   "buffers": [{
     "byteLength": 277824,
-    "uri": "https://rawgit.com/priyakrishnadev/demomodelfiles/master/human.bin"
+    "uri": "https://rawgit.com/priyakrishnadev/demomodelfiles/master/human2.bin"
   }],
   "materials": [{
     "name": "HumanBody:blinn1SG",
