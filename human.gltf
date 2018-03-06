@@ -1,0 +1,186 @@
+{
+  "accessors": [{
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 24696,
+      "max": [
+        4758
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4759,
+      "max": [
+        3.9804019927978516,
+        1.4151489734649658,
+        0.0324539989233017
+      ],
+      "min": [-3.9804019927978516, -1.05970299243927, -15.194843292236328],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4759,
+      "max": [
+        0.9987487196922302,
+        0.99969482421875,
+        0.999298095703125
+      ],
+      "min": [-0.9987487196922302, -0.999969482421875, -0.99981689453125],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4759,
+      "max": [
+        1.0,
+        0.9999918937683105,
+        0.9840999841690063,
+        1.0
+      ],
+      "min": [-0.9998524188995361, -0.9999918937683105, -0.9840998649597168,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 4759,
+      "max": [
+        0.9889219999313354,
+        0.9831239990890026
+      ],
+      "min": [
+        0.01107800006866455,
+        0.013381004333496094
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Khronos Blender glTF 2.0 exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [{
+      "buffer": 0,
+      "byteLength": 49392,
+      "byteOffset": 0,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 57108,
+      "byteOffset": 49392,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 57108,
+      "byteOffset": 106500,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 76144,
+      "byteOffset": 163608,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 38072,
+      "byteOffset": 239752,
+      "target": 34962
+    }
+  ],
+  "buffers": [{
+    "byteLength": 277824,
+    "uri": "http://127.0.0.1:8000/img/products/Harrison_Gaines/models/human/human.bin"
+  }],
+  "materials": [{
+    "name": "HumanBody:blinn1SG",
+    "pbrMetallicRoughness": {
+      "baseColorFactor": [
+        0.9200000166893005,
+        0.6800000071525574,
+        0.5400000214576721,
+        1.0
+      ],
+      "metallicFactor": 0.0
+    }
+  }],
+  "meshes": [{
+    "name": "HumanBody:humanBody",
+    "primitives": [{
+      "attributes": {
+        "NORMAL": 2,
+        "POSITION": 1,
+        "TANGENT": 3,
+        "TEXCOORD_0": 4
+      },
+      "indices": 0,
+      "material": 0
+    }]
+  }],
+  "nodes": [{
+      "name": "Camera",
+      "rotation": [
+        0.48170700669288635,
+        0.3342514932155609, -0.21292175352573395,
+        0.7816000580787659
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.9999999403953552
+      ],
+      "translation": [
+        7.481131553649902,
+        5.34366512298584,
+        6.5076398849487305
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "HumanBody:humanBody",
+      "rotation": [
+        0.7071068286895752,
+        0.0, -0.0,
+        0.7071067094802856
+      ]
+    },
+    {
+      "name": "Lamp",
+      "rotation": [
+        0.16907575726509094,
+        0.7558802962303162, -0.27217137813568115,
+        0.570947527885437
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.9999999403953552
+      ],
+      "translation": [
+        4.076245307922363,
+        5.903861999511719, -1.0054539442062378
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [{
+    "name": "Scene",
+    "nodes": [
+      1,
+      2,
+      0
+    ]
+  }]
+}
